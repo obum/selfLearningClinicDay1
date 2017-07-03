@@ -1,3 +1,5 @@
+
+
 var result = [];
 function getPrime(n){
   if (n<0){
@@ -24,5 +26,5 @@ for(var i=2; i<=n; i++){
 }// end of else
 return result;
 }
-  var answer = getPrime(20);
-  console.log(answer);
+
+module.exports = getPrime
